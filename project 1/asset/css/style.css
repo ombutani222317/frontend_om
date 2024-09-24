@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.list li {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #1f1f1f;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+.list li a:hover {
+    color: rgb(247, 77, 47);
+    transition: 0.15s;
+}
+
+/* main home page */
+
+.main-page {
+    min-height: 550px;
+    background-color: #fcedee;
+    border-bottom-left-radius: 27%;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom-left-radius: 27%;
+}
+
+.main-button {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    transition: 0.6s ;
+}
+.main-button:hover{
+    background-color:white;
+    color:  rgb(37, 37, 37);
+    padding: 12px 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.red {
+    color: rgb(247, 77, 47);
+    font-weight: 700;
+}
+
+.main-left {
+    margin: 0 20px 0 100px;
+}
+
+.main-left h1 {
+    font-size: 45px;
+    margin-bottom:30px;
+    font-weight: 500;
+}
+
+.main-left p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: gray;
+    word-spacing: 2px;
+}
+
+.main-right {
+    margin: 0 80px 0 0;
+}
+
+.main-right img {
+    width: 500px;
+    height: 500px;
+}
+section{
+padding: 100px;
+}
+
+.firstpage{
+    width: 100%;
+    height: 100vh;
+}
+.first-line{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ff4f5a;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.second-line{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1f1f1f;
+    font-weight: 600;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.third-line p{
+    font-family: 'Montserrat', sans-serif;
+text-align: center;
+    font-size: 16px;
+    color: #4b4b4b;
+    margin: 40px;
+    word-spacing: 3px;
+}
+.container{
+height: 1035px;
+    width: 1140px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+.la-motorcycle{
+    color:#ff4f5a;
+    font-size: 60px;
+}
+.la-lightbulb{
+    color:#ff4f5a;
+    font-size: 60px;
+}
+.la-fighter-jet{
+    color:#ff4f5a;
+    font-size: 60px;
+}
+.la-pencil-ruler{
+    color:#ff4f5a;
+    font-size: 60px;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
